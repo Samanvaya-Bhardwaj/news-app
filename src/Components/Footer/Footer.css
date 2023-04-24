@@ -1,0 +1,31 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .footer-socials a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .footer-socials a:hover {
+    color: #007bff;
+  }
+  
+  .footer-logo img {
+    height: 2rem;
+  }
+  

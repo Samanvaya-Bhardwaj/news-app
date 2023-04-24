@@ -2,6 +2,8 @@ import React from 'react';
 import './Home.css'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
+import News from '../News/News';
+import Newsletter from '../Newsletter/Newsletter';
 
 
 
@@ -31,6 +33,9 @@ const Home = () => {
         </div>
     </div>
 </Slide>
+
+<News/>
+<Newsletter/>
 
 </>
   )

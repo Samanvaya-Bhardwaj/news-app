@@ -1,0 +1,42 @@
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .founder-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .founder {
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .founder img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .founder h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .founder p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  

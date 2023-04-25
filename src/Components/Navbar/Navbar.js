@@ -6,7 +6,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg bg-dark">
   <div className="container">
-    <Link className="navbar-brand fw-bold fs-3 text-white" to="/">News Telportor</Link>
+    <Link className="navbar-brand fw-bold fs-3 text-white" to="/">News Teleportor</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -22,11 +22,6 @@ export default function Navbar() {
           <Link className="nav-link text-white" to="/contact">Contact</Link>
         </li>
       </ul>
-
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success mx-4" type="submit">Search</button>
-      </form>
 
       <div className="buttons">
         <Link to="/" className="btn btn-outline-light ">

@@ -18,13 +18,13 @@ function News() {
 
   return (
     <>
-    <h1 className="text-center my-5">Latest News</h1>
+    <h1 className="text-center my-5">Today's News</h1>
     <div className="App">
       {data.map((post)=>{
         const{source, title, content, author, description, urlToImage} = post;
         return <div className="card my-3  col-md-3"key={source}> 
         <img src={urlToImage} alt="" />
-        <h1>{title.slice(0,20).toUpperCase()}</h1>
+        <h1>{title.slice(0,30).toUpperCase()}</h1>
         <p>{content}</p>
         <p>{description}</p>
         <h4>{author}</h4>

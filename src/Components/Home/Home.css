@@ -1,4 +1,4 @@
-.each-slide-effect > div {
+.each-slide > div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,7 +6,7 @@
     height: 690px;
   }
   
-  .each-slide-effect span {
+  .each-slide span {
     padding: 20px;
     font-size: 20px;
     background: red;

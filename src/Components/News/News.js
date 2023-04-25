@@ -19,6 +19,7 @@ function News() {
   return (
     <>
     <h1 className="text-center my-5">Today's News</h1>
+    <h5 className="text-center">API Call - News Api</h5>
     <div className="App">
       {data.map((post)=>{
         const{source, title, content, author, description, urlToImage} = post;

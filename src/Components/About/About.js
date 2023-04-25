@@ -12,7 +12,7 @@ const About = () => {
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
             vehicula nunc vel nisl ultrices, a pulvinar elit bibendum. Sed
-            gravida iaculis lectus, a feugiat sapien consequat in.
+            gravida iaculis lectus, a feugiat sapien consequat in thi.
           </p>
         </div>
         <div className="founder">
